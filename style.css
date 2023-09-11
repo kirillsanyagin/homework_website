@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'optimus';
+    src: url(./fonts/ofont.ru_Optimus.ttf);
+
+    /* font-family: 'ShantellSans-ExtraBold';
+    src: url(./fonts/ShantellSans-ExtraBold.ttf) */
+
+    /* font-family: 'ShantellSans-LightItalic';
+    src: url(./fonts/ShantellSans-LightItalic.ttf); */
+}
+.optimus{
+    font-family: 'optimus'
+}
+/* .ShantellSans-ExtraBold{
+    font-family: 'ShantellSans-ExtraBold'
+} */
+/* .ShantellSans-LightItalic{
+    font-family: 'ShantellSans-LightItalic';
+} */
+img{
+    width : 600px;
+    height : 300px;
+    margin : 25px 450px;
+}
+body{
+    background: url(./img/фон1.jpg) no-repeat;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+}
+
+.text-aling{
+    text-align: center;
+}
+.tekst_sleva_size_1_5em {
+    text-align: left;
+    width : 600px;
+    height : 300px;
+    margin : -340px 40px;
+    font-size: 1.5em;
+    color: red;
+}
+.tekst_sleva_size_1_3em {
+    text-align: left;
+    width : 600px;
+    height : 300px;
+    margin : -215px 0px;
+    font-size: 1.3em
+}
+.square_markers{
+    list-style-type: square;
+}
+.info{
+    text-align: centre;
+    width : 700px;
+    height : 80px;
+    margin : 45px auto 3px;
+    font-size: 2.3em
+}
